@@ -1,0 +1,77 @@
+#work-area{
+    width: 800px;
+    height: 650px;
+    border: 1px black solid;
+}
+#container{
+    width: 400px;
+    height: 650px;
+    background-color: green;
+    float: left;
+    position: relative;
+}
+#game {
+    width: 300px;
+    height: 650px;
+    background-color: rgb(172, 172, 172);
+    position: relative;
+    left: 50px;
+}
+#interface {
+    top: 100px;
+    width: 400px;
+    height: 450px;
+    float: right;
+    text-align: center;
+    position: relative;
+}
+#title{
+    padding: 10px 10px 10px 10px;
+    font-family: "Bahnschrift";
+    font-size: 40px;
+    font-weight: 1000;
+}
+#score{
+    padding: 10px 10px 10px 10px;
+    font-family: "Bahnschrift";
+    font-size: 30px;
+}
+#instruction{
+    padding: 10px 10px 30px 10px;
+    font-family: "Bahnschrift";
+}
+#character {
+    width: 60px;
+    height: 100px;
+    position: relative;
+    top: 400px;
+    left: 120px;
+}
+#car{
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    animation: car 1s infinite linear;
+}
+#refresh {
+    width:200px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: aqua;
+    text-align: center;
+}
+#footer{
+    width: 802px;
+    height:30px;
+    padding:5px 0 5px 0;
+    position: relative;
+    top: 10px;
+    background-color: bisque;
+    text-align: center;
+}
+@keyframes car{
+    0%{top:-180px}
+    100%{top:550px}
+}
